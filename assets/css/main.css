@@ -122,7 +122,7 @@ a {
     background-color: #233140;
 }
 .carousel-caption {
-    margin-bottom: 100px;
+    margin-bottom: 172px;
     font-size: 29px;
 }
 /*Nav-bar*/
@@ -147,4 +147,29 @@ a {
   background-color: #e67e22 ;
 }
 
+img.img-responsive.certificate {
+    width: 16%;
+    margin-top: -157px;
+    position: relative;
+}
+img#certificate1 {
+    float: left;
+    width: 118px;
+    margin-left: 44px;
+}
+img#certificate2 {
+    float: right;
+    width: 160px;
+}
+@media only screen and (max-width: 500px) {
+    img#certificate2 {
+    width: 85px;
+  }
+  img#certificate1 {
+    width: 62px;
+  }
 
+img.img-responsive.certificate {
+    width: 16%;
+  }
+}
