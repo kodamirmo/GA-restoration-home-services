@@ -1,0 +1,26 @@
+ @media only screen and (min-width : 768px)){
+	h1, .h1{
+    font-size: 24px;
+	}
+	h2 {
+    line-height: 58px;
+    font-size: 2em;
+	}
+	.carousel-caption {
+    margin-bottom: 206px;
+	}
+}
+@media screen and (max-width : 992px){
+	.carousel-caption {
+    margin-bottom: 206px;
+	}
+}
+@media screen and (max-width : 1200px){
+	.carousel-caption {
+    margin-bottom: 206px;
+	}
+	h1, .h1 {
+    font-size: 60px;
+	}
+}
+
