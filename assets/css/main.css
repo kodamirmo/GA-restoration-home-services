@@ -125,3 +125,26 @@ a {
     margin-bottom: 100px;
     font-size: 29px;
 }
+/*Nav-bar*/
+.navbar-toogle{
+ color: #233140; 
+}
+.navbar-inverse .navbar-toggle .icon-bar { 
+ background-color: #e67e22 ; 
+}
+.navbar-toogle :hover{
+  background-color: white !important; 
+}
+.navbar-inverse .navbar-toggle .icon-bar :hover { 
+ background-color: white !important; 
+}
+.navbar-right{
+  color: #e67e22 !important;
+  background-color: #233140;
+}
+.nav .navbar-nav  >ul> li>a:hover{
+  color: white;
+  background-color: #e67e22 ;
+}
+
+
