@@ -161,15 +161,52 @@ img#certificate2 {
     float: right;
     width: 160px;
 }
+/*----------media queries-------*/
 @media only screen and (max-width: 500px) {
     img#certificate2 {
-    width: 85px;
+    width: 70px;
   }
   img#certificate1 {
-    width: 62px;
+    width: 45px;
+    margin-left: 5px;
   }
 
 img.img-responsive.certificate {
-    width: 16%;
+    margin-top: -60px;
+  }
+.carousel-caption {
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  h1, .h1 {
+    font-size: 12px;
+  }
+  h2.txt-white.text-center {
+    font-size: 25px;
+    margin-top: 14px;
+    margin-bottom: 12px;
+    }
+  h2.txt-white.pd2 {
+    font-size: 25px;
+    }
+}
+@media only screen and (min-width: 768px){
+  .carousel-caption {
+    margin-bottom: 84px;
+    font-size: 25px;
+  }
+  h2.txt-white.text-center {
+    margin-top: 20px;
+    margin-bottom: 22px;
   }
 }
+@media screen and (min-width : 1440px){
+    h1, .h1 {
+    font-size: 69px;
+    }
+    .carousel-caption {
+    margin-bottom: 137px;
+    font-size: 39px;
+    }
+}
+
